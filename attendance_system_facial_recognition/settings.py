@@ -81,10 +81,10 @@ WSGI_APPLICATION = 'attendance_system_facial_recognition.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'attence',
-        'USER':'root',
-        'PASSWORD': '',
-        'HOST': 'localhost',
+        'NAME': 'sql6506919',
+        'USER':'sql6506919',
+        'PASSWORD': 'eX8G4TRSAq',
+        'HOST': 'sql6.freesqldatabase.com',
         'PORT': '3306'
     }
 }

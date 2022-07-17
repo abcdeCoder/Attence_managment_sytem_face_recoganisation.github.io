@@ -28,4 +28,4 @@ sklearn==0.0
 sqlparse==0.3.1
 threadpoolctl==2.1.0
 wincertstore==0.2
-crispy_forms
+# crispy_forms

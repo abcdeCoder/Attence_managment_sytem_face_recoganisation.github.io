@@ -80,12 +80,8 @@ WSGI_APPLICATION = 'attendance_system_facial_recognition.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'sql6506919',
-        'USER':'sql6506919',
-        'PASSWORD': 'eX8G4TRSAq',
-        'HOST': 'sql6.freesqldatabase.com',
-        'PORT': '3306'
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
 

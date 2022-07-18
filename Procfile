@@ -1,1 +1,0 @@
-web: gunicorn requirements.txt.wsgi:application --log-file -

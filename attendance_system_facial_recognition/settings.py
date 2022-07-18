@@ -73,7 +73,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'attendance_system_facial_recognition.wsgi.application'
+WSGI_APPLICATION = 'Attence_managment_sytem_face_recoganisation.github.io.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
